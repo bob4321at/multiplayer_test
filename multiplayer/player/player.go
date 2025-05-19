@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"main/textures"
 	"main/utils"
 	"net/http"
 
+	"github.com/bob4321at/textures"
 	"github.com/hajimehoshi/ebiten/v2"
 )
 
@@ -24,7 +24,7 @@ type Player struct {
 	Speed          float64
 	Origonal_Speed float64
 	Texture        textures.RenderableTexture
-	ID             string
+	ID             int
 }
 
 func NewPlayer(Pos utils.Vec2, Server_Link string) (player Player) {
