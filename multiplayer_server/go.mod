@@ -2,10 +2,7 @@ module main
 
 go 1.23.8
 
-require (
-	github.com/gin-gonic/gin v1.10.0
-	github.com/tomasen/realip v0.0.0-20180522021738-f0c99a92ddce
-)
+require github.com/gin-gonic/gin v1.10.0
 
 require (
 	github.com/bytedance/sonic v1.11.6 // indirect

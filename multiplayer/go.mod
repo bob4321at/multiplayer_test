@@ -3,7 +3,7 @@ module main
 go 1.23.8
 
 require (
-	github.com/bob4321at/textures v0.0.0-20250519211532-01e8b1e0dfec
+	github.com/bob4321at/textures v1.0.0
 	github.com/hajimehoshi/ebiten/v2 v2.8.8
 )
 

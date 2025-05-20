@@ -8,7 +8,7 @@ import (
 	"main/utils"
 	"net/http"
 
-	"github.com/bob4321at/textures"
+	textures "github.com/bob4321at/textures"
 	"github.com/hajimehoshi/ebiten/v2"
 )
 
@@ -38,7 +38,7 @@ func NewPlayer(Pos utils.Vec2, Server_Link string) (player Player) {
 		panic(err)
 	}
 
-	resp, err := http.Post(Server_Link+"/GetIP", "application/json", bytes.NewBuffer(json_data))
+	resp, err := http.Post(Server_Link+"/AddPlayer", "application/json", bytes.NewBuffer(json_data))
 	if err != nil {
 		panic(err)
 	}

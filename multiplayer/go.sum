@@ -1,5 +1,7 @@
 github.com/bob4321at/textures v0.0.0-20250519211532-01e8b1e0dfec h1:sSn9LuPrESTcYyHgIZaukpAQWamLQzTJoxUAaj0OKjw=
 github.com/bob4321at/textures v0.0.0-20250519211532-01e8b1e0dfec/go.mod h1:+sd1BcCTUYyjWYIXoIG9p5uLV9myX2muax4S5T4n5AY=
+github.com/bob4321at/textures v1.0.0 h1:rAoAhw6IDXgzapPbuOOFd02gWiBiFOlLukcg3oDBRGc=
+github.com/bob4321at/textures v1.0.0/go.mod h1:qJDxgLbjqCP3l2Fus+IbXO8FuEO/2ciy8CTJvv4WQjU=
 github.com/ebitengine/gomobile v0.0.0-20240911145611-4856209ac325 h1:Gk1XUEttOk0/hb6Tq3WkmutWa0ZLhNn/6fc6XZpM7tM=
 github.com/ebitengine/gomobile v0.0.0-20240911145611-4856209ac325/go.mod h1:ulhSQcbPioQrallSuIzF8l1NKQoD7xmMZc5NxzibUMY=
 github.com/ebitengine/hideconsole v1.0.0 h1:5J4U0kXF+pv/DhiXt5/lTz0eO5ogJ1iXb8Yj1yReDqE=
