@@ -22,6 +22,8 @@ func (g *Game) Update() error {
 func (g *Game) Draw(s *ebiten.Image) {
 	ebitenutil.DebugPrint(s, server_link)
 
+	player.DrawOtherPlayers(s)
+
 	player.Current_Player.Draw(s)
 }
 
